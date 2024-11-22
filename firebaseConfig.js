@@ -1,5 +1,5 @@
 const admin = require("firebase-admin");
-const serviceAccountPath = "/secrets/firebase-adminsdk.json"; // Path where secret is mounted
+const serviceAccountPath = "/secrets/firebase-adminsdk.json";
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccountPath),
