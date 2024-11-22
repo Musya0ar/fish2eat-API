@@ -1,4 +1,4 @@
-const { db } = require("../firebaseConfig.js"); // Adjust the path to match your setup
+const { db } = require("../firebaseConfig.js");
 
 exports.addFish = async (req, res) => {
     try {
